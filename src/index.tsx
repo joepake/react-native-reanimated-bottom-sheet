@@ -802,7 +802,7 @@ export default class BottomSheetBehavior extends React.Component<Props, State> {
           }}
           onLayout={this.handleFullHeader}
         />
-        {this.props.background}
+        {this.props.background && this.props.background()}
         <Animated.View
           style={{
             width: '100%',
