@@ -115,6 +115,7 @@ type Props = {
   onCloseEnd?: () => void
   callbackThreshold?: number
   borderRadius?: number
+  background?: React.ComponentType<any> | React.ReactElement | null
 }
 
 type State = {
