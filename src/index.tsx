@@ -820,7 +820,6 @@ export default class BottomSheetBehavior extends React.Component<Props, State> {
           }}
         >
           <View style={{
-                        position: 'absolute',
                         width: '100%',
                         position: 'absolute',
                         zIndex: 100,
