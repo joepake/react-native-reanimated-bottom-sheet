@@ -819,7 +819,11 @@ export default class BottomSheetBehavior extends React.Component<Props, State> {
             ],
           }}
         >
-          {this.props.background && this.props.background()}
+          <View style={{
+                        height: this.state.initSnap
+                    }}>
+                        {this.props.background && this.props.background()}
+                    </View>
           <PanGestureHandler
             enabled={
               this.props.enabledGestureInteraction &&
