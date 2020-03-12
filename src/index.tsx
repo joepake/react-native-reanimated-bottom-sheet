@@ -822,7 +822,6 @@ export default class BottomSheetBehavior extends React.Component<Props, State> {
           <View style={{
                         width: '100%',
                         position: 'absolute',
-                        zIndex: 100,
                         height: this.state.initSnap
                     }}>
                         {this.props.background && this.props.background()}
