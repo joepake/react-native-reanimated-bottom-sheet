@@ -686,7 +686,8 @@ export default class BottomSheetBehavior extends React.Component<Props, State> {
     }
     this.manuallySetValue.setValue(
       // @ts-ignore
-      this.state.snapPoints[this.state.propsToNewIndices[index]]
+      //[Joe]
+      this.state.snapPoints[this.state.propsToNewIndices[1 - index]]
     )
     this.isManuallySetValue.setValue(1)
   }
